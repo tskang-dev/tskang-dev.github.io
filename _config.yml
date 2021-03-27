@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name: "Taesung Kang"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/avataaars.png"
   bio: "I am an **amazing** person."
   location: "Tokyo, Japan"
   email: "congoha@gmail.com"

@@ -18,7 +18,7 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 locale: "en-US"
 title: "Kang's tech blog"
 title_separator: "-"
-subtitle: "Version 2.0"
+subtitle: "Version 1.0"
 name: "Taesung Kang"
 description: "This is my web development technical blog."
 url: "https://tskang-dev.github.io"
@@ -51,8 +51,8 @@ reCaptcha:
   secret:
 atom_feed:
   path: # blank (default) uses feed.xml
-  hide: # true, false (default)
-search: # true, false (default)
+  hide: true
+search: true
 search_full_content: # true, false (default)
 search_provider: # lunr (default), algolia, google
 algolia:
@@ -93,15 +93,15 @@ analytics:
 
 # Site Author
 author:
-  name: "Your Name"
+  name: "Taesung Kang"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "I am an **amazing** person."
-  location: "Somewhere"
-  email:
+  location: "Tokyo, Japan"
+  email: "congoha@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:congoha@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -264,9 +264,10 @@ defaults:
       path: ""
       type: posts
     values:
+      show_date: true
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
